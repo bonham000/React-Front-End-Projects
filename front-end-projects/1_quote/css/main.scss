@@ -18,22 +18,72 @@ $tan: #fff1b9;
 $white: #FFFFF2;
 
 // Define Fonts:
-$Trirong: 'Trirong', serif;
-$Libre: 'Libre Franklin', sans-serif;
-$Montserrat: 'Montserrat', sans-serif;
 $Raleway: 'Raleway', sans-serif;
-$Cormorant: 'Cormorant Garamond', serif;
-$Ubuntu: 'Ubuntu', sans-serif;
-$Pridi: 'Pridi', serif;
-$Merriweather: 'Merriweather', serif;
 $Rasa: 'Rasa', serif;
-$Vesper: 'Vesper Libre', serif;
-$Hind: 'Hind Vadodara', sans-serif;
-$Baloo: 'Baloo Bhai', cursive;
 
 // Styling:
 
 body {
   background: $heavy;
   color: $bright-blue;
+  font-family: $Raleway;
+  text-align: center;
 }
+.title {
+  margin: 85px 0 25px 0;
+  h1 {
+    font-size: 45px;
+  }
+  a, a:visited {
+    color: $bright-blue;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $red-orange;
+  }
+}
+.buttons {
+  margin-top: -15px;
+}
+button {
+  color: $gold;
+  background: $dark-blue;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 28px;
+  border-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+  background: rgba(39, 69, 85, .5);
+}
+.quotes {
+  width: 750px;
+  margin: 75px auto;
+  background: rgba(39, 69, 85, .25);
+  padding: 25px;
+  border-radius: 25px;
+  p {
+  margin-top: 25px;
+  font-size: 30px;
+  color: $red-orange;
+  }
+  .quoteText {
+    font-family: $Rasa;
+  }
+  .quoteAuthor {
+    color: $gold;
+    margin-top: 15px;
+  }
+}
+.quotes:hover {
+  background: rgba(39, 69, 85, .22);
+}
+
+
+
+
+
+
+

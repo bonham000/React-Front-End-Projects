@@ -4,7 +4,7 @@
 
 ###I used Toggl to record the time spent on each of the projects. The results are:
 
-1 - Random Quote Generator  =>
+1 - Random Quote Generator  => 1:33:27
 2 - Weather API Service     =>
 3 - Wikipedia Viewer        =>
 4 - Twitch API Service      =>
