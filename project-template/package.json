@@ -1,0 +1,8 @@
+{
+  "devDependencies": {},
+  "scripts": {
+    "build": "babel js/index.js --watch --out-file js/index-compiled.js",
+    "build-sass": "sass --watch css/main.scss:css/main.css",
+    "babel-v": "babel --version"
+  }
+}
