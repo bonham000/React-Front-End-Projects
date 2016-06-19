@@ -1,9 +1,8 @@
 # Mac OS X
 .DS_Store
 
-# Ignore docs files
-styles/.sass-cache
-styles/.sass-cache/*
+# Ignore SASS docs files
+**/.sass-cache
 
 # Logs
 logs
