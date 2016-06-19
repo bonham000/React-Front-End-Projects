@@ -9,7 +9,7 @@ class Root extends React.Component {
   render() {
     return (
       <div>
-        <h1>Welcome to React in ES6 World</h1>
+        <h1>Welcome to React in ES6</h1>
       </div>
       );
   }
