@@ -5,7 +5,7 @@ This repository contains the Intermediate and Advanced Projects from Free Code C
 **I used Toggl to record the time spent on each of the projects. The results are:**
 
 1. Random Quote Generator  => 1:33:27
-2. Weather API Service     =>
+2. Weather API Service     => 2:24:28
 3. Wikipedia Viewer        =>
 4. Twitch API Service      =>
 5. Javascript Calculator   =>
