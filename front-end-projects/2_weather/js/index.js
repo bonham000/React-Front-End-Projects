@@ -6,6 +6,7 @@ class Root extends React.Component {
       currLat: '',
       currLon: '',
       city: '',
+      country: '',
       temp: '',
       tempCategory: 'Kelvin',
       currTempK: '',
@@ -20,22 +21,26 @@ class Root extends React.Component {
     this.getLocation();
   }
   getLocation() {
-    navigator.geolocation.getCurrentPosition(function(position) {
+    $.get('http://ip-api.com/json', function(response) {
+      console.log("User's location retrieved successfully");
       this.setState({
-        currLat: position.coords.latitude,
-        currLon: position.coords.longitude
+        city: response.city,
+        country: response.country,
+        currLat: response.lat,
+        currLon: response.lon
       });
       this.getWeather();
+      
     }.bind(this));
   }
   getWeather() {
     var keyID = 'e75aa9eb22e3e903ba187251f2faa34f';
       $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + this.state.currLat + '&lon=' + this.state.currLon + '&appid=' + keyID, function(response) {
+        console.log('Weather API called successfully');
         var tempK = response.main.temp;
         var tempC = tempK - 273.15;
         var tempF = tempC * 1.8 + 32;
         this.setState({
-          city: response.name,
           currTempK: (tempK).toString() + 'K',
           temp: (tempK).toString() + 'K',
           currTempF: (tempF.toFixed(2)).toString() + '°F',
@@ -68,6 +73,7 @@ class Root extends React.Component {
           latitude = {this.state.currLat}
           longitude = {this.state.currLon}
           city = {this.state.city}
+          country = {this.state.country}
           kelvin = {this.state.currTempK}
           celsius = {this.state.currTempC}
           faren = {this.state.currTempF}
@@ -85,19 +91,19 @@ class DisplayWeather extends React.Component {
     var cond = this.props.weatherDetail;
 
     if (cond === "clear sky") {
-      return <img src = "/assets/sun.png" />
+      return <img src = "http://i1361.photobucket.com/albums/r662/bonham000/Current%20Weather%20App/sun_zps5alfhawb.png" />
     }
     else if ((cond === "few clouds") || (cond === "scattered clouds") || (cond === "broken clouds")) {
-      return <img src = "/assets/clouds.png" />
+      return <img src = "http://i1361.photobucket.com/albums/r662/bonham000/Current%20Weather%20App/clouds_zpsimfgky1h.png" />
     }
     else if ((cond === "shower rain") || (cond === "rain")) {
-      return <img src = "/assets/rain.png" />
+      return <img src = "http://i1361.photobucket.com/albums/r662/bonham000/Current%20Weather%20App/rain_zpsd8iqh9we.png" />
     }
     else if (cond === "thunderstorm") {
-      return <img src = "/assets/storm.png" />
+      return <img src = "http://i1361.photobucket.com/albums/r662/bonham000/Current%20Weather%20App/storm_zpsapxffwwd.png" />
     }
     else {
-      return <img src = "/assets/clouds.png" />
+      return <img src = "http://i1361.photobucket.com/albums/r662/bonham000/Current%20Weather%20App/clouds_zpsimfgky1h.png" />
     }
   
   }
@@ -159,7 +165,7 @@ class DisplayWeather extends React.Component {
         </div>
         <div className = "data">
           <p className = "coordinates">Your coordinates are: {lat}, {lon}</p>
-          <p className = "city">The nearest city is {this.props.city}.</p>
+          <p className = "city">Your location: {this.props.city}, {this.props.country}</p>
         </div>
         <div className = "credits">
           <p>Weather icons courtesy of&nbsp;
