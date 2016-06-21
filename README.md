@@ -2,8 +2,9 @@
 
 **This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I created these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, and also to improve my workflow in general. This page includes some data I tracked while working on these projects.
 
-**I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer then. The results for this round are:
+**I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer then.
 
+In order to improve my workflow, I created a template (`project-template` folder in the repo) for each project which included a simple project directory and basic HTML, CSS, and JS files setup with boilerplate code (.e.g a root React Component, html title, body, etc.). I also configured my main.scss file with several font-families and colors I pre-selected to have available as variables for each project. Overall, this made my development process much quicker than it otherwise would have been.
 
 | Project | Time |
 | ------- | ---- |
