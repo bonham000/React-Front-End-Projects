@@ -17,11 +17,11 @@ This repository contains the Intermediate and Advanced Projects from Free Code C
 
 | Project | 1st Try (jQuery) | 2nd Try (React) |
 | ------- | ---------------: | --------------: | 
-| Random Quotes | first | second |
-| Weather API | first | second |
-| Wikipedia Viewer | first | second |
-| Twitch TV | first | second |
-| Javascript Calculator | first | second |
-| Pomodoro Clock | first | second |
-| Tic-Tac-Toe | first | second |
-| Simon Game | first | second |
+| Random Quotes | 3,649 characters | 3,878 characters |
+| Weather API | 13,347 characters | 7,937 characters |
+| Wikipedia Viewer | 6,788 characters | 6,506 characters |
+| Twitch TV | 5,987 characters | 6,192 characters |
+| Javascript Calculator | 8,497 characters | 6,206 characters |
+| Pomodoro Clock | 8,709 characters | second |
+| Tic-Tac-Toe | 9,984 characters | second |
+| Simon Game | 13,769 characters | second |
