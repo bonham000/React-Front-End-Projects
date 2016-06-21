@@ -1,19 +1,22 @@
 # Free Code Camp Front-End Curriculum
 
-This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React.js. This is a project I did in order to improve my understanding of the React library.
+This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React.js. I create these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, and also to improve my workflow in general. This README includes some data I tracked while working on these projects.
 
-**I used Toggl to record the time spent on each of the projects. The results are:**
+**I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer then. The results for this round are:
 
-1. Random Quote Generator => 1:33:27
-2. Weather API Service => 2:24:28
-3. Wikipedia Viewer => 3:22:58
-4. Twitch API Service => 4:18:52
-5. Javascript Calculator => 1:4618
-6. Pomodoro Clock&nbsp =>
-7. Tic-Tac-Toe Game =>
-8. Simon Game =>
 
-**I used analyzed the amount of code required to build each project and compared it to my prior attempt. Here are the results, evaluated simply on the number of characters typed in all the files per project (e.g. all HTMl, CSS, and JS):**
+| Project | Time |
+| ------- | ---- |
+| Random Quotes | 1:33:27 |
+| Weather API | 2:24:28 |
+| Wikipedia Viewer | 3:22:58 |
+| Twitch TV | 4:18:52 |
+| Javascript Calculator | 1:46:18 |
+| Pomodoro Clock | |
+| Tic-Tac-Toe | |
+| Simon Game | |
+
+**I also analyzed the amount of code required to build each project and compared it to my prior attempt.** Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
 
 | Project | 1st Try (jQuery) | 2nd Try (React) | Gain or (Loss) on 2nd Try |
 | ------- | ---------------: | --------------: | --------------------: |
