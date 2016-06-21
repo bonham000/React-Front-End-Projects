@@ -1,6 +1,6 @@
 # Free Code Camp Front-End Curriculum
 
-This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React.js. I create these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, and also to improve my workflow in general. This README includes some data I tracked while working on these projects.
+**This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I created these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, and also to improve my workflow in general. This page includes some data I tracked while working on these projects.
 
 **I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer then. The results for this round are:
 
