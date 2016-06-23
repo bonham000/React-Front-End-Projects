@@ -13,7 +13,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Wikipedia Viewer | 3:22:58 |
 | Twitch TV | 4:18:52 |
 | Javascript Calculator | 1:46:18 |
-| Pomodoro Clock | |
+| Pomodoro Clock | 2:41:33 |
 | Tic-Tac-Toe | |
 | Simon Game | |
 
@@ -26,6 +26,6 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Wikipedia Viewer | 6,788 characters | 6,506 characters | -282 characters less |
 | Twitch TV | 5,987 characters | 6,192 characters | -205 characters less |
 | Javascript Calculator | 8,497 characters | 6,206 characters | -2291 characters less |
-| Pomodoro Clock | 8,709 characters |  | |
+| Pomodoro Clock | 8,709 characters | 7,739 | -970 characters less|
 | Tic-Tac-Toe | 9,984 characters |  | |
 | Simon Game | 13,769 characters |  | |
