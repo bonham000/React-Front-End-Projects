@@ -21,7 +21,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 
 | Project | 1st Try | 2nd Try | Gain or (Loss) on 2nd Try |
 | ------- | ---------------: | --------------: | --------------------: |
-| Random Quotes | 3,649 characters | 3,878 characters | +229 characters more |
+| Random Quotes | 3,679 characters | 3,703 characters | +24 characters more |
 | Weather API | 13,347 characters | 7,937 characters | -5,410 characters less |
 | Wikipedia Viewer | 6,788 characters | 6,506 characters | -282 characters less |
 | Twitch TV | 5,987 characters | 6,192 characters | -205 characters less |
