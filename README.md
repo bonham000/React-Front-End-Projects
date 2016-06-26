@@ -30,6 +30,6 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Pomodoro Clock | 8,709 characters | 7,739 characters | -970 characters less|
 | Tic-Tac-Toe* | 9,984 characters | 16,573 characters | +6,589 characters more |
 | Simon Game | 13,769 characters |  | |
-| **Total Characters** | **70,760** | **54,856** | **15,904** |
+| **Total Characters** | **70,760 characters** | **54,856 characters** | **-15,904 characters less** |
 
 *The first Tic-Tac-Toe game was beatable, the second one not-so.
