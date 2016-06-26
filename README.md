@@ -14,7 +14,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Twitch TV | 4:18:52 |
 | Javascript Calculator | 1:46:18 |
 | Pomodoro Clock | 2:41:33 |
-| Tic-Tac-Toe | 5:59:29 |
+| Tic-Tac-Toe* | 5:59:29 |
 | Simon Game | |
 | **Total Time** | **22:07:05** |
 
