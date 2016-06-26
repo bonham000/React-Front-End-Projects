@@ -1,10 +1,12 @@
-# Free Code Camp Front-End Curriculum
+# Free Code Camp Front End Curriculum
 
-**This repository contains the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I created these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, and also to improve my workflow in general. This page includes some data I tracked while working on these projects.
+##I built the Free Code Camp Front End Projects once using HTML, CSS, and jQuery, and then rebuilt them using React and Sass.##
 
-**I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer then.
+**This repository contains the code for the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I created these projects after finishing the Front End Curriculum while working on the Data Visualization Certificate in order to improve my understanding of React, to improve my workflow, and to gain experience with new tools, e.g. webpack, hot-reloading, etc. This page includes some data I tracked while working on these projects.
 
-In order to improve my workflow, I created a template (`project-template` folder in the repo) for each project which included a simple project directory and basic HTML, CSS, and JS files setup with boilerplate code (.e.g a root React Component, html title, body, etc.). I also configured my main.scss file with several font-families and colors I pre-selected to have available as variables for each project. Overall, this made my development process much quicker than it otherwise would have been.
+**I used Toggl to record the time spent on each of the projects I built with React.** Unfortunately, I do not have any of these numbers for the first time I completed these projects, but I know it took me substantially longer the first time.
+
+In order to improve my workflow, I created a template (`project-template` folder in the repo) for each project which included a simple project directory and basic HTML, CSS, and JS files setup with boilerplate code (e.g. a root React Component, html title, body, etc.). I also configured my `main.scss` file with several font-families and colors I pre-selected to have available as variables for each project. Overall, this made my development process much quicker.
 
 | Project | Time |
 | ------- | ---- |
@@ -18,7 +20,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Simon Game | |
 | **Total Time** | **22:07:05** |
 
-**I also analyzed the amount of code required to build each project and compared it to my prior attempt.** I used jQuery for each of these on my inital attempt, but everything is done with React (excluding some API calls) on the second attempt. Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
+**I also analyzed the amount of code required to build each project and compared it to my prior attempt.** Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
 
 | Project | 1st Try | 2nd Try | Gain or (Loss) on 2nd Try |
 | ------- | ---------------: | --------------: | --------------------: |
