@@ -16,6 +16,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Pomodoro Clock | 2:41:33 |
 | Tic-Tac-Toe | 5:59:29 |
 | Simon Game | |
+| **Total Time** | **22:07:05** |
 
 **I also analyzed the amount of code required to build each project and compared it to my prior attempt.** I used jQuery for each of these on my inital attempt, but everything is done with React (excluding some API calls) on the second attempt. Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
 
