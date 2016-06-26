@@ -14,7 +14,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Twitch TV | 4:18:52 |
 | Javascript Calculator | 1:46:18 |
 | Pomodoro Clock | 2:41:33 |
-| Tic-Tac-Toe | |
+| Tic-Tac-Toe | 5:59:29 |
 | Simon Game | |
 
 **I also analyzed the amount of code required to build each project and compared it to my prior attempt.** I used jQuery for each of these on my inital attempt, but everything is done with React (excluding some API calls) on the second attempt. Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
@@ -27,5 +27,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Twitch TV | 5,987 characters | 6,192 characters | -205 characters less |
 | Javascript Calculator | 8,497 characters | 6,206 characters | -2291 characters less |
 | Pomodoro Clock | 8,709 characters | 7,739 characters | -970 characters less|
-| Tic-Tac-Toe | 9,984 characters |  | |
+| Tic-Tac-Toe* | 9,984 characters | 16,573 characters | +6,589 characters more |
 | Simon Game | 13,769 characters |  | |
+
+*The first Tic-Tac-Toe game was beatable, the second one not-so.
