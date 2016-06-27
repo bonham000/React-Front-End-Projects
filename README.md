@@ -17,8 +17,8 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Javascript Calculator | 1:46:18 |
 | Pomodoro Clock | 2:41:33 |
 | Tic-Tac-Toe* | 5:59:29 |
-| Simon Game | |
-| **Total Time** | **22:07:05** |
+| Simon Game | 5:17:48 |
+| **Total Time** | **27:24:53** |
 
 **I also analyzed the amount of code required to build each project and compared it to my prior attempt.** Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS):
 
@@ -31,7 +31,7 @@ In order to improve my workflow, I created a template (`project-template` folder
 | Javascript Calculator | 8,497 characters | 6,206 characters | -2291 characters less |
 | Pomodoro Clock | 8,709 characters | 7,739 characters | -970 characters less|
 | Tic-Tac-Toe* | 9,984 characters | 16,573 characters | +6,589 characters more |
-| Simon Game | 13,769 characters |  | |
-| **Total Characters** | **70,760 characters** | **54,856 characters** | **-15,904 characters less** |
+| Simon Game | 13,769 characters | 14,892 | +1,123 more |
+| **Total Characters** | **70,760 characters** | **69,748 characters** | **1,012 characters less** |
 
 *The first Tic-Tac-Toe game was beatable, the second one not-so.
