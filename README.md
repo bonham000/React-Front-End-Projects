@@ -6,7 +6,7 @@
 
 **This repository contains the code for the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I build these projects to improve my understanding of React.
 
-In order to improve my workflow, I created a template (`project-template` folder in the repo) for each project which included a simple project directory and basic HTML, CSS, and JS files setup with boilerplate code (e.g. a root React Component, html title, body, etc.). I also configured my `main.scss` file with several font-families and colors I pre-selected to have available as variables for each project. Overall, this made my development process much quicker.
+In order to improve my workflow, I created a template (`project-template` folder in the repo) for each project which included a simple project directory and basic HTML, CSS, and JS files setup with boilerplate code (e.g. a root React Component, html title, body, etc.). I also configured my `main.scss` file with several font-families and colors I pre-selected to have available for each project. Overall, this made my development process much quicker.
 
 I analyzed the amount of code required to build each project and compared it to my prior attempt. Here are the results, evaluated roughly on the number of characters typed in all the files in each project (e.g. all HTMl, CSS, and JS). I think it's very interesting that the total code required to write all the projects was very similar on my first and second attempt, even though it diverged significantly on a few individual projects.
 
