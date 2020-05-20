@@ -2,7 +2,7 @@
 
 **[See the live explanation of this project here](http://sean-smith.me/assets/portfolio/front-end-projects/index.html)**
 
-##I built the Free Code Camp Front End Projects once using HTML, CSS, and jQuery, and then rebuilt them using React and Sass.##
+### I built the Free Code Camp Front End Projects once using HTML, CSS, and jQuery, and then rebuilt them using React and Sass.
 
 **This repository contains the code for the Intermediate and Advanced Projects from Free Code Camp's Front End Curriculum, all built with React and Sass.** I build these projects to improve my understanding of React.
 
